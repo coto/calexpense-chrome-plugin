@@ -1,0 +1,166 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-size:12px;
+	width: 100%;	
+	font-family: Arial, Helvetica, sans-serif;
+	overflow-x:hidden;
+}
+
+a, a:hover, a:visited, a:active {
+	border:none;
+	outline:none;
+	color:#09F;
+	text-decoration:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+button {
+	outline: none;
+}
+
+/*********** Panel, Alert **********/
+
+div.panel.panel-primary {
+	margin-bottom: 0;
+	border-radius: 0;
+	border-width: 0;
+}
+
+
+h4.panel-title a{
+	color: black;
+	text-decoration: none;
+}
+
+
+.action-refresh {
+	float:right;
+	cursor: pointer;
+}
+
+h1{	
+	font-size: 14px;
+	text-align: center;
+	margin: 0;
+}
+.alert {
+	display: none;
+	margin: 5px 0;
+	border-radius: 0;
+}
+
+.panel-body table, .panel-title table {
+	width: 100%;
+}
+
+.panel-default table td{
+	/*width: 33%;*/
+	padding: 5px;
+	border-bottom: 1px solid #cccccc;
+}
+
+.panel-default table td:first-child {
+	width: 58%
+}
+.panel-default table td:last-child {
+	width: 10%
+}
+.panel-title .badge, td .badge {
+	background-color: transparent;
+	float: right;
+}
+
+
+.panel-body {
+	padding: 0;
+}
+.panel-group .panel+.panel {
+	margin-top: 0;
+}
+
+
+/*******  list-items ***********/
+ul.list-group {
+	margin-bottom: 0;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+.list-group-item:last-child {
+	border-radius: 0;
+	border-bottom-width: 0;
+}
+
+
+.negative {
+	color: red;
+}
+
+/******** list-item Saving *************/
+
+.panel-default>.saving {
+	width: 100%;
+	background-image: none;
+	background-color: #ECF8E0;
+}
+
+/********* Plugin Styles ****************/
+#plugin {
+	width: 370px;
+}
+
+#plugin #panel-primary {
+	/*display: none;*/
+}
+body#plugin {
+	font-size: 11px;
+}
+
+body#plugin .panel-title{
+	font-size: 12px;
+}
+body#plugin .collapse{
+	font-size: 12px;
+}
+
+/********** table ***************/
+table.summary {
+	margin: 8px 5px;
+	border: 1px solid #1155cc;
+	width: 360px;
+}
+thead tr {
+	background: #1155cc;
+	color: white;
+	font-size: 140%;
+	text-align: center;
+	font-weight: bold;
+}
+
+thead td {
+	padding: 2px 5px!important;
+}
+
+tbody tr.main td {
+	padding: 2px 5px!important;
+	font-size: 150%;
+	text-align: center;
+	font-weight: bold;
+}
+
+tbody td {
+	padding: 3px 5px!important;
+}
+
+.updated {
+	text-align: right;
+	color: #aaaaaa;
+	padding-right: 5px;
+}
+

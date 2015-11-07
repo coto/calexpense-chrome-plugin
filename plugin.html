@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/summary.css" />
+</head>
+
+<body id="plugin">
+	<div>
+		<div id="panel-loading" style="text-align: center;">
+			<img src="img/loading.gif" height="350" width="350">
+		</div>
+
+		<div id="panel-primary" class="panel panel-primary">
+			<div class="panel-heading">
+				<h1>CalExpense <span class="glyphicon glyphicon-refresh action-refresh"></span></h1>
+			</div>
+			
+			<div class="alert alert-danger">
+				<button type='button' class='close' data-dismiss='alert'>×</button>
+				<p id="error"> ## Alert Message here ##</p>
+			</div>
+
+			<table class="table"><tr id="content_indicadores"></tr></table>
+
+			<table id="content_discrecionales" class="table summary">
+				<thead><tr><td colspan="2">A discreción</td></tr></thead>
+				<tbody></tbody>
+			</table>	
+			<table id="content_fijos" class="table summary">
+				<thead><tr><td colspan="2">Fijos</td></tr></thead>
+				<tbody></tbody> 
+			</table>
+			<table id="content_saving" class="table summary">
+				<thead><tr><td colspan="2">Saving</td></tr></thead>
+				<tbody></tbody> 
+			</table>
+
+				
+		</div>
+		
+	</div>
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="plugin.js"></script>
+</body>
+</html>
+
+
